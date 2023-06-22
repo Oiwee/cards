@@ -78,11 +78,16 @@ body {
     color: #000000;
 }
 
-.header__menu > li {
+.header__menu li a {
     cursor: pointer;
+    color: #000000;
 }
 
-.header__menu > li:hover {
+.header__menu li a.active {
+    color: #EC5E0F;
+}
+
+.header__menu li > a:hover {
     color: #EC5E0F;
     transition: all 0.5s ease-in-out;
 }
